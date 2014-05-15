@@ -1,7 +1,9 @@
 public class Brave {
-
 	public static void main(String[] args) {
 		LinePrinter lp = new LinePrinter("Hello, world!");
-		lp.multiPrint(10);
+		for(int i = 1; i<=3; i++) {
+			lp.multiPrint(i);
+			System.out.println();
+		}
 	}
 }
